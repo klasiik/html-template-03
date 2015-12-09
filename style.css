@@ -789,8 +789,143 @@ h2 {
   #live-blog {
     display: none;
   }
+
+  #figcaption {
+    height: 56px;
+    transform: translateY(-131%);
+  }
+
+  #figcaption h1 {
+    font-size: 20px;
+  }
+
+  #figcaption p {
+    display: none;
+  }
+
+  #pause-img {
+    display: none;
+  }
+
+  #slider {
+    display: none;
+  }
+
+  #articles-menu div {
+    height: 48px;
+    color: #FFF;
+    line-height: 48px;
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+
+  #articles-menu-more img {
+    display: none;
+  }
+
+  .articles-item p {
+    display: none;
+  }
+
+  .articles-item h1 {
+    font-size: 25px !important;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  #right-bar {
+    margin-top: 10px;
+  }
+
+  .trending-list-span {
+    font-size: 20px;
+    height: 48px;
+    line-height: 48px;
+  }
+
+  #live-concert {
+    display: none;
+  }
+
+  .blue-small {
+    height: 48px;
+    line-height: 48px;
+    font-size: 20px;
+  }
+
+  .top-stories-list-span {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 500px) {
+  #logo {
+    display: block;
+    float: none;
+    width: 302px;
+  }
 
+  #input-search {
+    width: 305px;
+  }
+
+  #search-web-button {
+    width: 305px;
+  }
+
+  .slider-main-photo {
+    width: 305px;
+  }
+
+  #figcaption {
+    width: 305px;
+  }
+
+  #articles-menu {
+    width: 285px;
+  }
+
+  #articles-menu div {
+    display: block;
+    font-size: 28px;
+    font-family: Roboto;
+  }
+
+  #articles-menu-more {
+    margin-left: 0px;
+  }
+
+  .articles-img {
+    height: 48px;
+    width: 48px;
+  }
+
+  .articles-item {
+    height: 69px;
+  }
+
+  .articles-item h1 {
+    font-size: 14px !important;
+  }
+
+  #articles-content {
+    width: 303px;
+  }
+
+  #trending {
+    width: 303px;
+  }
+  #trending-list {
+    -moz-column-count: 1;
+  }
+
+  #only-top {
+    width: 283px;
+  }
+
+  .blue-small {
+    font-size: 15px;
+  }
 }
