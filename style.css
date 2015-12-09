@@ -120,7 +120,8 @@ body {
   width: 15%;
   padding-left: 7px;
   display: inline-block;
-  transform: translateY(-25px);
+  position: relative;
+  top: -220px;
 }
 
 #left-bar img {
@@ -164,6 +165,8 @@ body {
 #stories {
   width: 55%;
   display: inline-block;
+  position: relative;
+  top: -195px;
 }
 
 #live-blog {
