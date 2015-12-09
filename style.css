@@ -527,3 +527,270 @@ h2 {
 .top-stories-list-span:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 1200px) {
+  #language {
+    margin-left: 0px;
+  }
+
+  #content {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #upper-bar ul div {
+    margin-right: 26px;
+  }
+
+  #left-bar {
+    width: 10%;
+    position: relative;
+    top: -879px;
+  }
+
+  #left-bar p {
+    font-size: 14px;
+  }
+
+  #left-bar img {
+    height: 20px;
+  }
+
+  #logo {
+    width: 82px;
+  }
+
+  #stories {
+    width: 50%;
+    position: relative;
+    top: -814px;
+  }
+
+  #input-search {
+    width: 342px;
+  }
+
+  .slider-main-photo {
+    width: 477px;
+    height: 286px;
+  }
+
+  #figcaption i {
+    margin-left: 149px;
+  }
+
+  #live-blog {
+    position: relative;
+    top: 14px;
+  }
+
+  #slider div {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .slider-item {
+    width: 83px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .slider-item img {
+    width: 83px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  #slider-right-arrow {
+    line-height: 90px;
+  }
+
+  #slider-right-arrow img {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+  }
+
+  .slider-item-elo {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  
+  .slider-item-img-div {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-top: 0px !important;
+    width: 83px;
+    height: 40px !important;
+  }
+
+  .articles-item h1 {
+    font-size: 14px !important;
+  }
+
+  .article-item-content {
+    font-size: 11px;
+  }
+
+  .header-img {
+    display: none;
+  }
+
+  #elo p {
+    margin-right: 15px;
+    font-size: 11px;
+  }
+
+  #search-web-button {
+    margin-right: 18px;
+  }
+
+  #right-bar {
+    width: 16%;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  #trending-list {
+    -moz-column-count: 1;
+  }
+
+  #live-concert-red {
+    width: 93%;
+    margin-bottom: 0px;
+  }
+
+  #live-concert-tomorrow {
+    margin-left: 23px;
+    margin-top: 0px;
+  }
+
+  #live-concert-melvins {
+    margin-top: 0px;
+  }
+
+  .only-on-item img {
+    display: none;
+  }
+
+  .black-small {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #left-bar {
+    display: none;
+  }
+
+  #right-bar {
+    display: block;
+    transform: none;
+  }
+
+  #stories {
+    position: relative;
+    top: 0px;
+  }
+
+  #upper-bar {
+    width: 332px;
+    margin-right: 85px;
+    position: fixed;
+    left: -335px;
+    top: 0px;
+    transition: 0.5s;
+    z-index: 1;
+    font-family: Roboto;
+    text-transform: uppercase;
+  }
+
+  #upper-bar-x {
+    height: 30px;
+    width: 30px;
+    display: block !important;
+    position: relative;
+    top: 9px;
+    left: 277px;
+  }
+
+  #upper-bar-x:hover {
+    cursor: pointer;
+  }
+
+  #upper-bar-first p {
+    position: relative;
+    left: -30px;
+  }
+
+  #upper-bar ul div img {
+    display: none;
+  }
+
+  #upper-bar ul div {
+    clear: both;
+    height: 48px;
+    width: 320px;
+    line-height: 48px;
+    font-size: 30px;
+    padding-left: 10px;
+    border: 2px solid #000;
+  }
+
+  #upper-bar ul div p:hover {
+    text-decoration: none;
+  }
+
+  #language {
+    display: none;
+  }
+
+  #right-bar {
+    width: 50%;
+  }
+
+  #trending-list {
+    -moz-column-count: 2;
+  }
+
+
+  #input-search {
+   width: 372px;
+   height: 48px;
+  }
+
+  #search-web-button {
+    display: block;
+    clear: both;
+    width: 478px;
+    height: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    z-index: 1;
+  }
+
+  #elo p {
+    display: none;
+  }
+
+  #stories {
+    display: block;
+  }
+
+  #live-blog {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+}

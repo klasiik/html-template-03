@@ -10,5 +10,23 @@ for (i = 0; i < 9; i++) {
 	var listSpan = document.createElement("span");
 	listItem.appendChild(listSpan);
 	listSpan.className = "top-stories-list-span mouseover";
-	listSpan.innerHTML = topStoriesStringCut[i]
+	listSpan.innerHTML = topStoriesStringCut[i];
+};
+
+var yahooLogo = document.getElementById("logo");
+var upperBar = document.getElementById("upper-bar")
+
+yahooLogo.onclick = function() {	
+	upperBar.style.left = "0px";
+
+	var ulDiv = document.getElementById("upper-bar-first");
+	var x = document.createElement("img");
+	ulDiv.appendChild(x);
+	x.src = "gfx/x-mark.png";
+	x.id = "upper-bar-x";
+
+	x.onclick = function() {
+		upperBar.style.left = "-335px";
+		ulDiv.removeChild(x);
+	};
 };
